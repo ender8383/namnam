@@ -1,0 +1,316 @@
+.mainHead {
+	text-align:center;
+	margin-top:0;	
+}
+
+#address {
+	text-align:center;
+	font-size: 1.25em;	
+	margin-bottom: 50px;
+	color: rgba(255,255,255,0.8);	
+}
+
+
+.img{		
+	width:200px;
+	border-radius: 6px;
+
+}
+
+#hours {
+	text-align:center;	
+	margin-bottom: 0;
+	color: rgba(255,255,255,0.8);
+	font-weight:bold;
+	font-size:1em;	
+	}
+	
+	#hoursText{
+		margin-bottom:0;	
+	}
+	
+
+#phone {
+	text-align:center;
+	margin-bottom: 5px;
+	font-size: 2.5em;
+	color: rgba(255,255,255,0.8);	
+}
+
+
+#message {
+	font-size:1em;
+	text-align:center;
+    font-weight:bold;
+	padding-bottom: 15px;
+	color: rgba(255,255,255,0.8);	
+}
+
+body{	
+	
+    background-repeat:no-repeat;
+	background-color:#28cdb0;
+	/* background-color:#355328; */
+	/* background-image: url("../img/bamboo.png"); */
+/* 	background-size: cover;
+	background-position: 0% 100%;
+    background-attachment: fixed; */
+	
+
+}
+
+.panel {
+	max-width: 1000px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:transparent;
+	padding:0;
+	border-radius:8px;	
+}
+
+.columns {
+	padding-left:0;
+	padding-right:0;	
+}
+
+@media only screen and (min-width: 40.0625em) {
+	.top-bar-section li.active:not(.has-form) a:not(.button) {
+		background: #cf0f10;	
+	}
+	.top-bar-section li.active:not(.has-form) a:not(.button):hover{
+		background: #cf0f10;
+		opacity: 0.5;
+	}
+	
+	
+	
+	}
+	
+	#socialicon {
+		font-size: 4em;
+		text-align: center;		
+		color: #3b5998;
+		margin-left:15px;
+		margin-right:15px;padding: 15px;		
+	}
+	
+	#socialicon:hover {
+		color:#8b9dc3;	
+	}
+	
+	#mailicon {
+		font-size: 4em;
+		text-align: center;
+		margin-left:15px;
+		margin-right:15px;
+	}
+	
+	#mailicon:hover {
+		opacity: 0.5;	
+	}
+	#phoneicon {
+		font-size: 4em;
+		text-align: center;
+		margin-left:15px;
+		margin-right:15px;
+			
+	}
+	#phoneicon:hover {
+		opacity: 0.5;
+	}	
+	
+	
+	@media only screen and (max-width: 370px) {
+		#phoneicon {
+			font-size: 3em;
+		}
+		#mailicon {
+			font-size: 3em;
+		}	
+		#socialicon {
+			font-size: 3em;
+		}	
+		
+	}
+	
+	
+	#logoBack {
+		background-color: rgba(255,255,255,0.5);
+		background: linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0));
+	}
+	
+	#centersocial {
+		margin:auto;
+		text-align:center;	
+	}
+	
+	
+	.slideHolder {
+		text-align:center;
+		margin-left:auto;
+		margin-right:auto;
+		width: 60%;
+		max-width:500px;	
+	}
+	
+	.slide{
+		width:100%;
+		text-align:center;
+			
+	}
+	
+	.slick-slide {
+		height:300px;
+		position:absolute;	
+		text-align:center;
+		top:0;
+		left:0;
+		right:0;
+		bottom:0;
+		
+	}
+
+	.slick-slide img {		
+		width: 100%;
+		height: 300px;
+		position:absolute;
+		vertical-align: middle;
+	}
+	.slick-dots {
+		margin-left:0;	
+	}
+	
+	#myModal {
+		height:800px;
+		top: 100px;	
+		margin-top: -55px;		
+	}
+	
+	@media only screen and (max-width: 400px) {
+		#myModal {
+		height:500px;	
+		}
+	}	
+	
+	.reveal-modal {
+		padding:0;	
+	}
+	
+	.bigMenu{		
+		font-size: 3em;	
+		margin:auto;
+		
+	}
+	
+	#bigMenuButton{
+		text-align:center;
+		margin-left:auto;
+		margin-right:auto;
+		background-color:transparent;
+		border-radius:8px;
+		max-width:1000px;
+		color:rgba(256,256,256,0.8);
+		border:1px;
+		border-color:#d8d8d8;		
+		border-style:solid;		
+	}
+	
+	#bigMenuButton:hover{
+		opacity:0.5;
+		color:#d8d8d8;
+		background-color:white;	
+	}
+	
+	
+	#koi{
+		position: fixed;
+		top: -225px;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		overflow: hidden;
+		z-index: -100;
+		text-align: center;
+		width:100%;
+		opacity:0.2;
+		height: 160%;	
+	}
+	
+	
+	
+	
+/* .fullscreen-bg {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -100;
+}
+
+.fullscreen-bg__video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+} */
+
+/* @media only screen and (min-aspect-ratio: 16/9) {
+  #koi {
+    height: 300%;
+    top: -100%;
+  }
+}
+
+@media only screen and (max-aspect-ratio: 16/9) {
+  #koi {
+    width: 300%;
+    left: -100%;
+  }
+} */
+
+@media only screen and (max-width: 1760px) {
+ 
+	#koi{
+		width:110%;
+	} 
+}
+@media only screen and (max-width: 1660px) {
+	#koi{
+		width:150%;
+	}	
+}
+@media only screen and (max-width: 1460px) {
+	#koi{
+		width:160%;
+	}	
+}
+@media only screen and (max-width: 1260px) {
+	#koi{
+		width:210%;
+	}	
+}
+@media only screen and (max-width: 1060px) {
+	#koi{
+		width:280%;
+	}	
+}
+@media only screen and (max-width: 860px) {
+	#koi{
+		width:350%;
+	}	
+}
+@media only screen and (max-width: 660px) {
+	#koi{
+		width:450%;
+	}	
+}
+@media only screen and (max-width: 460px) {
+	#koi{
+		width:700%;
+	}	
+}
+
+
